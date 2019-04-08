@@ -1,8 +1,9 @@
 cask 'obinslab-starter' do
-  version '1.0.5'
-  sha256 'edf944898b64595cccc9dfaec98055b7cdac7857be98df01e5ba1672311aeeeb'
+  version '1.0.9'
+  sha256 '5156a8d6e319091fe98f7cfbc136d1cffa981640b85ff1592f7e6292d59e4b36'
 
-  url "http://releases.obins.net/occ/darwin/x64/ObinslabStarter_#{version}.dmg"
+  url "http://releases.obins.net/occ/darwin/x64/ObinslabStarter_#{version}_x64.dmg"
+  appcast 'http://en.obins.net/obinslab-starter'
   name 'Obinslab Starter'
   homepage 'http://en.obins.net/obinslab-starter'
 

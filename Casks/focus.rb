@@ -1,9 +1,9 @@
 cask 'focus' do
-  version '1.9.14'
-  sha256 '54753c79c8cc92c1d32faf035fe3ad97e439367b60929926995834f952df9fe6'
+  version '1.10.4'
+  sha256 '1155078036e9df1d4018eddadcc95d04228354c22ff14b74891249df791dac1a'
 
-  url 'https://heyfocus.com/focus.zip'
-  appcast 'https://www.corecode.io/cgi-bin/check_urls/check_url_redirect.cgi?url=https://heyfocus.com/focus.zip'
+  url "https://heyfocus.com/uploads/Focus-#{version}.zip"
+  appcast 'https://macupdater.net/cgi-bin/check_urls/check_url_redirect.cgi?url=https://heyfocus.com/focus.zip'
   name 'Focus'
   homepage 'https://heyfocus.com/'
 

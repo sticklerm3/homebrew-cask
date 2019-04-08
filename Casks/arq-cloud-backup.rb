@@ -1,6 +1,6 @@
 cask 'arq-cloud-backup' do
-  version '1.2.9'
-  sha256 'b3c09f9db152f80c0e5ab3bf5d0f939a5442b6fee9b432ae5228ea22d737ec8f'
+  version '1.3.2'
+  sha256 'ffe7c2577dbe45b0dd2413271dfc7a25918fe11e02d3ec5670a885dd45e6bc67'
 
   url 'https://www.arqbackup.com/download/arqcloudbackup/ArqCloudBackup.dmg'
   appcast 'https://www.arqbackup.com/download/arqcloudbackup/arqcloudbackup_release_notes.html'

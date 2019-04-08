@@ -1,8 +1,9 @@
 cask 'josm' do
-  version '14760'
-  sha256 '19c31a45fe97a8b12d849840c9f13b7acbc252c6499598ca9dd842abc4bdd327'
+  version '14945'
+  sha256 '400346964923ff1d96d44fb1c29b2b2425e22e2814bcc58aa5903802a1c7aa2f'
 
   url "https://josm.openstreetmap.de/download/macosx/josm-macosx-#{version}.zip"
+  appcast 'https://josm.openstreetmap.de/'
   name 'JOSM'
   homepage 'https://josm.openstreetmap.de/'
 
@@ -15,6 +16,6 @@ cask 'josm' do
              ]
 
   caveats do
-    depends_on_java '8'
+    depends_on_java '8+'
   end
 end

@@ -1,9 +1,9 @@
 cask 'blitz' do
-  version '0.9.20'
-  sha256 '0f36b95bec82ea44ec1956731f8bcc9c0a66eafa92b13f97989069548b95786e'
+  version '0.9.25'
+  sha256 '0d08ca596a672130fc52c751fc2721b7a6f4cff20d2355af2f2ed9e2387655f9'
 
-  url 'https://dl.blitz.gg/download/mac'
-  appcast 'https://www.corecode.io/cgi-bin/check_urls/check_url_filename.cgi?url=https://dl.blitz.gg/download/mac'
+  url "https://dl.blitz.gg/download/Blitz-#{version}.dmg"
+  appcast 'https://macupdater.net/cgi-bin/check_urls/check_url_filename.cgi?url=https://dl.blitz.gg/download/mac'
   name 'Blitz'
   homepage 'https://blitz.gg/'
 
@@ -17,6 +17,7 @@ cask 'blitz' do
                '~/Library/Application Support/Blitz',
                '~/Library/Caches/com.blitz.app.ShipIt',
                '~/Library/Cookies/com.blitz.app.binarycookies',
+               '~/Library/Logs/Blitz',
                '~/Library/Preferences/com.blitz.app.plist',
                '~/Library/Saved Application State/com.blitz.app.savedState',
              ]
